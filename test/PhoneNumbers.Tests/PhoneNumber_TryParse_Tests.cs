@@ -53,6 +53,14 @@ namespace PhoneNumbers.Tests
         }
 
         [Fact]
+        public void TryParse_Value_With_Israel_CallingCode()
+        {
+            Assert.True(PhoneNumber.TryParse("+97286863100", out var phoneNumber));
+            Assert.NotNull(phoneNumber);
+            Assert.Equal(CountryInfo.Israel, phoneNumber.Country);
+        }
+        
+        [Fact]
         public void TryParse_Value_With_Italy_CallingCode()
         {
             Assert.True(PhoneNumber.TryParse("+393492525255", out var phoneNumber));
