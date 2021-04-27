@@ -91,7 +91,7 @@ namespace PhoneNumbers
             CallingCode = "+972",
             Iso3166Code = "IL",
             Name = "Israel",
-            NdcLengths = new ReadOnlyCollection<int>(new[] { 3, 2 }),
+            NdcLengths = new ReadOnlyCollection<int>(new[] { 2, 1 }),
             NsnLengths = new ReadOnlyCollection<int>(new[] { 8, 9, 10 }),
             TrunkPrefix = "0",
         };
