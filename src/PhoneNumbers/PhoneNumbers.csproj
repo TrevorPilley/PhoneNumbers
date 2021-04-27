@@ -70,8 +70,8 @@
     <None Remove="DataFiles\GG.txt"/>
     <None Remove="DataFiles\HK.txt"/>
     <None Remove="DataFiles\IE.txt"/>
-    <None Remove="DataFiles\IM.txt"/>
     <None Remove="DataFiles\IL.txt"/>
+    <None Remove="DataFiles\IM.txt"/>
     <None Remove="DataFiles\IT.txt"/>
     <None Remove="DataFiles\JE.txt"/>
     <None Remove="DataFiles\MC.txt"/>
@@ -91,8 +91,8 @@
     <EmbeddedResource Include="DataFiles\GG.txt"/>
     <EmbeddedResource Include="DataFiles\HK.txt"/>
     <EmbeddedResource Include="DataFiles\IE.txt"/>
-    <EmbeddedResource Include="DataFiles\IM.txt"/>
     <EmbeddedResource Include="DataFiles\IL.txt"/>
+    <EmbeddedResource Include="DataFiles\IM.txt"/>
     <EmbeddedResource Include="DataFiles\IT.txt"/>
     <EmbeddedResource Include="DataFiles\JE.txt"/>
     <EmbeddedResource Include="DataFiles\MC.txt"/>
