@@ -84,6 +84,19 @@ namespace PhoneNumbers
         };
 
         /// <summary>
+        /// Gets the <see cref="CountryInfo"/> for the Israel.
+        /// </summary>
+        public static CountryInfo Israel { get; } = new()
+        {
+            CallingCode = "+972",
+            Iso3166Code = "IL",
+            Name = "Israel",
+            NdcLengths = new ReadOnlyCollection<int>(new[] { 3, 2 }),
+            NsnLengths = new ReadOnlyCollection<int>(new[] { 8, 9, 10 }),
+            TrunkPrefix = "0",
+        };
+
+        /// <summary>
         /// Gets the <see cref="CountryInfo"/> for Italy.
         /// </summary>
         /// <remarks>Covers Italy (includes the islands of Sardinia and Sicily), and Vatican City.</remarks>
