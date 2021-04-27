@@ -1,9 +1,10 @@
-G|2|Jerusalem District|0000000-9999999|
-G|3|Tel Aviv District & Central District|0000000-9999999|
-G|4|Haifa District & Northern Distric|0000000-9999999|
-M|5||0000000-9999999|
-N|7||0000000-9999999|
-N|80||0000000-9999999|F
-G|8|Lowland & Southern District|0000000-9999999|
-N|90||0000000-9999999|R
-G|9|Sharon|0000000-9999999|
+# 1 80X and 1 90X numbers don't have a 0 trunk prefix...
+# N|180||0000000-9999999|F
+# N|190||0000000-9999999|R
+G|2|Jerusalem Region|2000000-9999999|
+G|3|Tel Aviv Region|2000000-9999999|
+G|4|Haifa and North Regions|2000000-9999999|
+M|5||00000000-99999999|
+N|7||00000000-99999999|
+G|8|Hashfela and South Regions|2000000-9999999|
+G|9|Hasharon Region|2000000-9999999|
