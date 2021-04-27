@@ -113,6 +113,24 @@ namespace PhoneNumbers.Tests
         }
 
         [Fact]
+        public void CountryInfo_Israel()
+        {
+            Assert.Same(CountryInfo.Israel, CountryInfo.Israel);
+
+            var countryInfo = CountryInfo.Israel;
+
+            Assert.Equal("+972", countryInfo.CallingCode);
+            Assert.True(countryInfo.HasNationalDestinationCodes);
+            Assert.Equal("00", countryInfo.InternationalCallPrefix);
+            Assert.Equal("IL", countryInfo.Iso3166Code);
+            Assert.Equal("Israel", countryInfo.Name);
+            Assert.Equal(new[] { 3, 2 }, countryInfo.NdcLengths);
+            Assert.Equal(new[] { 8, 9, 10 }, countryInfo.NsnLengths);
+            Assert.False(countryInfo.SharesCallingCode);
+            Assert.Equal("0", countryInfo.TrunkPrefix);
+        }
+
+        [Fact]
         public void CountryInfo_Italy()
         {
             Assert.Same(CountryInfo.Italy, CountryInfo.Italy);
