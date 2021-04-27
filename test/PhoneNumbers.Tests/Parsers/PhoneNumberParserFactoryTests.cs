@@ -35,6 +35,10 @@ namespace PhoneNumbers.Tests.Parsers
             Assert.IsType<DefaultPhoneNumberParser>(_factory.GetParser(CountryInfo.IsleOfMan));
 
         [Fact]
+        public void GetParser_For_CountryInfo_Israel_Returns_DefaultPhoneNumberParser() =>
+            Assert.IsType<DefaultPhoneNumberParser>(_factory.GetParser(CountryInfo.Israel));
+
+        [Fact]
         public void GetParser_For_CountryInfo_Italy_Returns_DefaultPhoneNumberParser() =>
             Assert.IsType<DefaultPhoneNumberParser>(_factory.GetParser(CountryInfo.Italy));
 
