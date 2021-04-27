@@ -126,6 +126,7 @@ Guernsey       | GG            | +44          | 0            | Yes        | Yes 
 Hong Kong      | HK            | +852         |              |            | Yes    |                        |                    | Yes                  | Yes            | Yes                           |
 Ireland        | IE            | +353         | 0            | Yes        | Yes    |                        | Yes                | Yes                  | Yes            | Yes                           | Yes
 Isle of Man    | IM            | +44          | 0            | Yes        | Yes    |                        |                    |                      |                |                               |
+Israel         | IL            | +972         | 0            | Yes        | Yes    |                        |                    |                      | Yes            | Yes                           | Yes
 Italy          | IT            | +39          |              | Yes        | Yes    |                        |                    |                      | Yes            | Yes                           | Yes
 Jersey         | JE            | +44          | 0            | Yes        | Yes    |                        |                    |                      |                |                               |
 Macau          | MO            | +853         |              |            | Yes    |                        |                    |                      | Yes            |                               |
@@ -172,6 +173,10 @@ These were used as the references for the phone number data for each country.
 - https://www.comreg.ie/csv/downloads/ComReg0804.pdf
 - https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000680001PDFE.pdf
 - https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Republic_of_Ireland
+
+### Israel
+
+- https://en.wikipedia.org/wiki/Telephone_numbers_in_Israel
 
 ### Italy
 
