@@ -1,1 +1,9 @@
-
+G|2|Jerusalem District|0000000-9999999|
+G|3|Tel Aviv District & Central District|0000000-9999999|
+G|4|Haifa District & Northern Distric|0000000-9999999|
+M|5||0000000-9999999|
+N|7||0000000-9999999|
+N|80||0000000-9999999|F
+G|8|Lowland & Southern District|0000000-9999999|
+N|90||0000000-9999999|R
+G|9|Sharon|0000000-9999999|
