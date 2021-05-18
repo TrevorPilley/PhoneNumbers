@@ -19,7 +19,7 @@ namespace PhoneNumbers.Tests.Parsers
             Assert.IsType<DefaultPhoneNumberParser>(_factory.GetParser(CountryInfo.France));
 
         [Fact]
-        public void GetParser_For_CountryInfo_Germany_Returns_ DefaultPhoneNumberParser() =>
+        public void GetParser_For_CountryInfo_Germany_Returns_DefaultPhoneNumberParser() =>
             Assert.IsType<DefaultPhoneNumberParser>(_factory.GetParser(CountryInfo.Germany));
 
         [Fact]
