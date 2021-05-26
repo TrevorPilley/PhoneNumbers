@@ -37,7 +37,8 @@ namespace PhoneNumbers
             CallingCode = "+49",
             Iso3166Code = "DE",
             Name = "Germany",
-            NsnLengths = new ReadOnlyCollection<int>(new[] { 12 }),
+            NdcLengths = new ReadOnlyCollection<int>(new[] { 2 }),
+            NsnLengths = new ReadOnlyCollection<int>(new[] { 11, 12 }),
             TrunkPrefix = "0",
         };
 
