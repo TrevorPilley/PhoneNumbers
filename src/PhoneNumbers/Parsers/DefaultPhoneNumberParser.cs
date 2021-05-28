@@ -56,6 +56,11 @@ namespace PhoneNumbers.Parsers
             {
                 foreach (var len in Country.NdcLengths)
                 {
+                    if (len > nsnValue.Length)
+                    {
+                        continue;
+                    }
+
                     ndc = nsnValue.Substring(0, len);
                     sn = nsnValue.Substring(ndc.Length);
 
