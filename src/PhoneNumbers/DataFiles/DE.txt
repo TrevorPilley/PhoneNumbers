@@ -26,4 +26,42 @@ G|2065|Duisburg-Rheinhausen|00-9999999|
 G|2066|Duisburg-Homberg|00-9999999|
 G|208|Oberhausen|000-99999999|
 G|209|Gelsenkirchen|000-99999999|
+G|2102|Ratingen|000-99999999|
+G|2103|Hilden|000-99999999|
+G|2104|Mettmann|000-99999999|
+G|211|Düsseldorf|000-99999999|
+G|212|Solingen|000-89999999|
+G|2129|Haan Rheinland|000-99999999|
+G|2131|Neuss|000-99999999|
+G|2132|Meerbusch-Büderich|000-99999999|
+G|2133|Dormagen|000-99999999|
+G|2137|Neuss-Norf|000-99999999|
+G|214|Leverkusen|000-99999999|
+G|2150|Meerbusch-Lank|000-99999999|
+G|2151|Krefeld|000-99999999|
+G|2152|Kempen|000-99999999|
+G|2153|Nettetal-Lobberich|000-99999999|
+G|2154|Willich|000-99999999|
+G|2156|Willich-Anrath|000-99999999|
+G|2157|Nettetal-Kaldenkirchen|000-99999999|
+G|2158|Grefrath bei Krefeld|000-99999999|
+G|2159|Meerbusch-Osterath|000-99999999|
+G|2161|Mönchengladbach|000-99999999|
+G|2162|Viersen|000-99999999|
+G|2163|Schwalmtal Niederrhein|000-99999999|
+G|2164|Jüchen-Otzenrath|000-99999999|
+G|2165|Jüchen|000-99999999|
+G|2166|Mönchengladbach-Rheydt|000-99999999|
+G|2171|Leverkusen-Opladen|000-99999999|
+G|2173|Langenfeld Rheinland|000-99999999|
+G|2174|Langenfeld Rheinland|000-99999999|
+G|2175|Leichlingen Rheinland|000-99999999|
+G|2181|Grevenbroich|000-99999999|
+G|2182|Grevenbroich-Kapellen|000-99999999|
+G|2183|Rommerskirchen|000-99999999|
+G|2191|Remscheid|000-99999999|
+G|2192|Hückeswagen|000-99999999|
+G|2193|Dabringhausen|000-99999999|
+G|2195|Radevormwald|000-99999999|
+G|2196|Wermelskirchen|000-99999999|
 G|30|Berlin|000000000-999999999|
