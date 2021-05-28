@@ -52,8 +52,8 @@ namespace PhoneNumbers.Tests
             Assert.Equal("00", countryInfo.InternationalCallPrefix);
             Assert.Equal("DE", countryInfo.Iso3166Code);
             Assert.Equal("Germany", countryInfo.Name);
-            Assert.Equal(new[] { 2 }, countryInfo.NdcLengths);
-            Assert.Equal(new[] { 11, 12 }, countryInfo.NsnLengths);
+            Assert.Equal(new[] { 5, 4, 3, 2 }, countryInfo.NdcLengths);
+            Assert.Equal(new[] { 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 }, countryInfo.NsnLengths);
             Assert.False(countryInfo.SharesCallingCode);
             Assert.Equal("0", countryInfo.TrunkPrefix);
         }
