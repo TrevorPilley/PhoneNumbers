@@ -34,8 +34,6 @@ namespace PhoneNumbers.Tests.Parsers
 
         [Theory]
         [InlineData("0540000000", "54", "0000000")]
-        [InlineData("0540000000", "54", "0000000")]
-        [InlineData("0549999999", "54", "9999999")]
         [InlineData("0549999999", "54", "9999999")]
         public void Parse_Known_MobilePhoneNumber_54_NationalDestinationCode(string value, string NationalDestinationCode, string subscriberNumber)
         {
@@ -95,7 +93,7 @@ namespace PhoneNumbers.Tests.Parsers
         }
 
         [Theory]
-        [InlineData("0560000000", "56", "0000000")]
+        [InlineData("0562000000", "56", "2000000")]
         [InlineData("0569999999", "56", "9999999")]
         public void Parse_Known_MobilePhoneNumber_56_NationalDestinationCode(string value, string NationalDestinationCode, string subscriberNumber)
         {
