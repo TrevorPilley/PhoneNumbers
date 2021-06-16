@@ -11,7 +11,7 @@ namespace PhoneNumbers.Tests.Parsers
         private static readonly PhoneNumberParser s_parser = DefaultPhoneNumberParser.Create(CountryInfo.Israel);
 
         [Theory]
-        [InlineData("0700000000", "7", "00000000")]
+        [InlineData("0710000000", "7", "10000000")]
         [InlineData("0799999999", "7", "99999999")]
         public void Parse_Known_NonGeographicPhoneNumber_7_NationalDestinationCode(string value, string NationalDestinationCode, string subscriberNumber)
         {
